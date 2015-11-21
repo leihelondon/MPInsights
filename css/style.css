@@ -1,0 +1,5 @@
+.mystyle input[type="text"] {
+   height: 50px;
+   font-size: 10px;
+   line-height: 14px;
+}
