@@ -25,7 +25,7 @@ app.get('/evaluate_mp_using_text_test', function (req, res) {
 	});
 });
 
-app.use('*', express.static('public'));
+app.use('/home', express.static('public'));
 
 app.listen(3000);
 console.log("Server listening on port 3000");
