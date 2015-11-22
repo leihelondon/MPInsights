@@ -44,7 +44,7 @@ h1{
  * Configurable Styles *
  ***********************/
 .flexsearch {
-  padding: 0 25px 0 140px; /* Padding for other horizontal elements */
+  padding: 0 80px 0 90px; /* Padding for other horizontal elements */
 }
 
 .flexsearch--input {
@@ -98,12 +98,14 @@ h1{
 
 ::-webkit-input-placeholder {
 	color: #888;  
-	font-family: 'Poiret One', cursive;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 100;
 }
 
 input:-moz-placeholder {
   color: #888;
-  font-family: 'Poiret One', cursive;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 100;
 }
 
 .ui-autocomplete {
@@ -134,4 +136,10 @@ input:-moz-placeholder {
 
 #demo{
 	height: 300px;
+}
+
+p{
+  font-size: 28px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 100;
 }
