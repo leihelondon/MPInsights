@@ -30,17 +30,24 @@
 	      $( "<div>" ).text( message ).prependTo( "#log" );
 	      $( "#log" ).scrollTop( 0 );
 	    }
-	    $( "#mpNames" ).autocomplete({
-	      source: "/home/mp.json",
-	      minLength: 2,
-	      select: function( event, ui ) {
-          event.preventDefault();
-          $("#mpNames").val(ui.item.label);
-          log( ui.item ?
-            "Selected: " + ui.item.label + " aka " + ui.item.value :
-            "Nothing selected, input was " + this.label );
-        }
-	    });
+
+      $(function () {
+          $.getJSON("mp.json", function (data) {
+              /* Initialize the widget with the data we got back: */
+              $( "#mpNames" ).autocomplete({
+              source: data,
+              minLength: 2,
+              select: function( event, ui ) {
+                event.preventDefault();
+                $("#mpNames").val(ui.item.label);
+                log( ui.item ?
+                  "Selected: " + ui.item.label + " aka " + ui.item.value :
+                  "Nothing selected, input was " + this.label );
+              }
+            });
+          });
+      });
+	    
 	  });
 
     </script>
