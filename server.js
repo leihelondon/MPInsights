@@ -9,6 +9,8 @@ app.use(bodyParser.urlencoded({     // to support URL-encoded bodies
   extended: true
 }));
 
+app.set('port', (process.env.PORT || 3000));
+
 // app.get('/evaluate_mp_using_text', function (req, res) {
 //   res.send('Send an AJAX request to here with the mp details, make request to watson, return data for display in your page');
 // });
@@ -16,7 +18,6 @@ app.use(bodyParser.urlencoded({     // to support URL-encoded bodies
 app.post('/evaluate_mp_using_text', function (req, res) {
 	// console.log(req);
 	speechText = req.body.speech.replace(/[^a-zA-Z \.]/g, '')
-
 
 	// var personality_insights = watson.personality_insights({
 	// username: '151ac950-28b3-4bf0-b78d-a4f8cd3d5834',
@@ -39,6 +40,7 @@ app.post('/evaluate_mp_using_text', function (req, res) {
 
 app.use('/home', express.static('public'));
 
-app.listen(3000);
-console.log("Server listening on port 3000");
+app.listen(app.get('port'), function() {
+  console.log('Node app is running on port', app.get('port'));
+});
 
