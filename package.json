@@ -9,6 +9,7 @@
   "author": "Lei He",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.14.1",
     "express": "^4.13.3",
     "watson-developer-cloud": "^1.0.3"
   }
