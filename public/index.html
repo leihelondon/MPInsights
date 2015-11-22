@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/jqcloud.css">
   <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 	<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 	<!-- Latest compiled and minified JavaScript -->
@@ -58,7 +59,7 @@
     <div class="container">
       <!-- Example row of columns -->
        <div class="row">
-          <div class="col-md-12">
+          <div class="col-md-10 col-md-push-2">
               <h1>What Are They Like?</h1>
           </div><!-- /.col-lg-6 -->
         </div><!-- /.row -->
@@ -76,7 +77,7 @@
 
       <div class="row">
         <div class="col-md-12">
-        <h1>Search MP</h1>
+        <h2><i class="fa fa-search"></i> Search MP</h2>
           <div class="flexsearch">
             <div class="flexsearch--wrapper">
               <form class="flexsearch--form" action="#" method="post">
@@ -90,9 +91,12 @@
         </div>
       </div>
 
-      <hr>
 
-      <h1>Result</h1>
+      <br>
+
+      <h2><i class="fa fa-user"></i> Personality</h2>
+
+      <br>
 
       <div class="row well">
         <div class="col-md-4">
@@ -137,6 +141,26 @@
         </div>
       </div>
 
+
+      <br>
+
+      <h2><i class="fa fa-newspaper-o"></i> News Coverage</h2>
+
+      <br>
+
+      <div class="row well">
+        <div class="col-md-4">
+          <h3>Nick Brown was mentioned</h3>
+          <h2>  2044</h2> 
+          <h3>times in news coverage</h3>
+        </div>
+        <div class="col-md-8">
+          <h3>Co-occuring topics:</h3>
+          <div id="demo2"></div>
+        </div>
+      </div>
+
+
       <div class="ui-widget" style="margin-top:2em; font-family:Arial">
       Result:
       <div id="log" style="height: 200px; width: 300px; overflow: auto;" class="ui-widget-content"></div>
@@ -155,16 +179,34 @@
       {text: "Agreeableness", weight: 16},
       {text: "Emotion Range", weight: 12},
       /* ... */
-    ];
+      ];
 
-    $('#demo').jQCloud(words, {
-      classPattern: null,
-      colors: ["#d73027","#f46d43","#fdae61","#fee090","#ffffbf","#e0f3f8","#abd9e9","#74add1","#4575b4"],
-      fontSize: {
-        from: 0.1,
-        to: 0.02
-      }
-    });
+      var topics = [
+      {text: "Lawsuit", weight: 92},
+      {text: "Allegations", weight: 80},
+      {text: "Bobbi Kristina Brown", weight: 8},
+      {text: "Coma", weight: 16},
+      {text: "Hospice", weight: 12},
+      /* ... */
+      ];
+
+      $('#demo').jQCloud(words, {
+        classPattern: null,
+        colors: ["#d73027","#f46d43","#fdae61","#fee090","#ffffbf","#e0f3f8","#abd9e9","#74add1","#4575b4"],
+        fontSize: {
+          from: 0.1,
+          to: 0.02
+        }
+      });
+
+      $('#demo2').jQCloud(topics, {
+        classPattern: null,
+        colors: ["#d73027","#f46d43","#fdae61","#fee090","#ffffbf","#e0f3f8","#abd9e9","#74add1","#4575b4"],
+        fontSize: {
+          from: 0.1,
+          to: 0.02
+        }
+      });
 
     </script>
 

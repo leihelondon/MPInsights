@@ -17,6 +17,11 @@ h1{
 	font-size: 64px;
 }
 
+h2{
+  font-family: 'Poiret One', cursive;
+  font-size: 40px;
+}
+
 .flexsearch--wrapper {
 	height: auto;
 	max-width: 100%;
@@ -136,6 +141,10 @@ input:-moz-placeholder {
 
 #demo{
 	height: 300px;
+}
+
+#demo2{
+  height: 300px;
 }
 
 p{
