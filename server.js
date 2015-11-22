@@ -1,6 +1,8 @@
 var express = require("express");
 var app = express();
 
+app.set('port', (process.env.PORT || 3000));
+
 app.get('/evaluate_mp_using_text', function (req, res) {
   res.send('Send an AJAX request to here with the mp details, make request to watson, return data for display in your page');
 });
