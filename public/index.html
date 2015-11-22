@@ -51,6 +51,19 @@
 	    
 	  });
 
+
+    $(document).ready(function() {
+      
+      $("#driver").click(function(event){
+         $.getJSON('http://data.test.bbc.co.uk/bbcrd-juicer/articles?q=Nick%20Brown&apikey=9OHbOpZpVh9tQZBDjwTlTmsCF2Ce0yGQ', function(jd) {
+            $('#mentions').html('<h3>' + 'was mentioned' + '</h3>');
+            $('#mentions').append('<h2>' + jd.total+ '</h2>');
+            $('#mentions').append('<h3>' + 'times in news coverage from 01/01/2015 to 22/01/2015' + '</h3>');
+         });
+      });
+  
+   });
+
     </script>
   </head>
 
@@ -149,14 +162,52 @@
       <br>
 
       <div class="row well">
-        <div class="col-md-4">
-          <h3>Nick Brown was mentioned</h3>
-          <h2>  2044</h2> 
-          <h3>times in news coverage</h3>
+        <div class="col-md-4" id="mentions">
+          
         </div>
         <div class="col-md-8">
           <h3>Co-occuring topics:</h3>
           <div id="demo2"></div>
+        </div>
+
+        <div class="col-md-12">
+          <h3>Latest Articles</h3>
+          <br>
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>Headline</th>
+                <th>Source</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row"><a href="http://bbc.co.uk"> No. 5 Notre Dame Beats Boston College 19-16 at Fenway Park</a></th>
+                <td>ABC News</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">Conscientiousness</th>
+                <td>80%</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">Extraversion</th>
+                <td>8%</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">Agreeableness</th>
+                <td>16%</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">Emotion Range</th>
+                <td>11%</td>
+                
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
 
@@ -209,6 +260,8 @@
       });
 
     </script>
+    
+      <input type = "button" id = "driver" value = "Load Data" />
 
  </body>
 </html>
