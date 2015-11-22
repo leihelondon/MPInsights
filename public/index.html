@@ -84,7 +84,28 @@
                 }
             }
             console.log(concepts);
+
+            topics2 = [];
+
             $('#juicer_articles').find('tbody').html(juicerML);
+            for(k in concepts) {
+              topics2.push({text: k, weight: concepts[k]});
+              
+            }
+
+            $('#demo2').jQCloud('update', topics2);
+
+      //       $('#demo2').jQCloud(topics, {
+      //   classPattern: null,
+      //   colors: ["#d73027","#f46d43","#fdae61","#fee090","#ffffbf","#e0f3f8","#abd9e9","#74add1","#4575b4"],
+      //   fontSize: {
+      //     from: 0.1,
+      //     to: 0.02
+      //   }
+      // });
+
+
+
          });
       });
   
