@@ -12,12 +12,14 @@
 
     <!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" >
-
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/jqcloud.css">
+  <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
 	<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
-    <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
 	<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" ></script>
+  <script src="js/jqcloud.js"></script>
 
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
@@ -32,65 +34,132 @@
 	      source: "/home/mp.json",
 	      minLength: 2,
 	      select: function( event, ui ) {
-	        log( ui.item ?
-	          "Selected: " + ui.item.name + " aka ":
-	          "Nothing selected, input was " + this.name );
-	      }
+        log( ui.item ?
+          "Selected: " + ui.item.label + " aka " + ui.item.value :
+          "Nothing selected, input was " + this.label );
+        }
 	    });
 	  });
+
     </script>
   </head>
 
   <body>
 
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">MP Insights</a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          
-        </div><!--/.navbar-collapse -->
-      </div>
-    </nav>
-
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-      <div class="container">
-        <h1>What Are the MPs Personalities?</h1>
-        <p>Explainer Text</p>
-      </div>
-    </div>
-
     <div class="container">
       <!-- Example row of columns -->
+       <div class="row">
+          <div class="col-md-10 col-md-push-1">
+
+              <h1>What are the MPs' personalities?</h1>
+          </div><!-- /.col-lg-6 -->
+        </div><!-- /.row -->
+
+        <br><br>
+
         <div class="row">
-			<div class="col-lg-12">
-			    <div class="input-group">
-			      <input type="text" class="form-control mystyle" id="mpNames" placeholder="Search for MP...">
-			      <span class="input-group-btn">
-			        <button class="btn btn-primary" type="button">Search</button>
-			      </span>
-			    </div><!-- /input-group -->
-			</div><!-- /.col-lg-6 -->
-	    </div><!-- /.row -->
+          <div class="col-md-10 col-md-push-1 well">
+
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          </div><!-- /.col-lg-6 -->
+        </div><!-- /.row -->
+
+        <hr>
+        
+
+    
+      <div class="row">
+        <div class="col-md-11">
+        <h1>Search MP</h1>
+          <div class="flexsearch">
+            <div class="flexsearch--wrapper">
+              <form class="flexsearch--form" action="#" method="post">
+                <div class="flexsearch--input-wrapper">
+                  <input class="flexsearch--input" type="search" placeholder="search MP" id="mpNames">
+                </div>
+                <input class="flexsearch--submit" type="submit" value="&#10140;"/>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <hr>
 
-    <div class="ui-widget" style="margin-top:2em; font-family:Arial">
-	    Result:
-	    <div id="log" style="height: 200px; width: 300px; overflow: auto;" class="ui-widget-content"></div>
-    </div>
+
+      <div class="row well">
+      <h1>Result</h1>
+        <div class="col-md-4">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>Personality</th>
+                <th>Value</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Openness</th>
+                <td>92%</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">Conscientiousness</th>
+                <td>80%</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">Extraversion</th>
+                <td>8%</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">Agreeableness</th>
+                <td>16%</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">Emotion Range</th>
+                <td>11%</td>
+                
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-md-8">
+          <div id="demo"></div>
+        </div>
+      </div>
+
+      <div class="ui-widget" style="margin-top:2em; font-family:Arial">
+      Result:
+      <div id="log" style="height: 200px; width: 300px; overflow: auto;" class="ui-widget-content"></div>
+      </div>
+ 
 
       <footer>
         <p>&copy; ...</p>
       </footer>
     </div> <!-- /container -->
+    <script>
+      var words = [
+      {text: "Openness", weight: 92},
+      {text: "Conscientiousness", weight: 80},
+      {text: "Extraversion", weight: 8},
+      {text: "Agreeableness", weight: 16},
+      {text: "Emotion Range", weight: 12},
+      /* ... */
+    ];
+
+    $('#demo').jQCloud(words, {
+      classPattern: null,
+      colors: ["#d73027","#f46d43","#fdae61","#fee090","#ffffbf","#e0f3f8","#abd9e9","#74add1","#4575b4"],
+      fontSize: {
+        from: 0.1,
+        to: 0.02
+      }
+    });
+    </script>
 
  </body>
 </html>

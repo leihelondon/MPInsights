@@ -1,1 +1,4 @@
-[{"label":"mylabel","value":"myvalue"}]
+[
+	{"label":"name1","value":"speech1"},
+	{"label":"name2","value":"speech2"}
+]
