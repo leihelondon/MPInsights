@@ -1,0 +1,823 @@
+{
+  "total": 2044,
+  "hits": [
+    {
+      "description": "Nick Gordon has denied claims he gave Bobbi Kristina Brown \"toxic cocktail\", which led to her death.",
+      "source": {
+        "source-uuid": "897b7a60-6429-42d1-8c15-d99809665904",
+        "source-id": 432,
+        "source-name": "Financial Express "
+      },
+      "title": "Bobbi Kristina Brown case: Nick Gordon denies ‘toxic cocktail’ claims",
+      "lang": "en",
+      "concepts": [
+        {
+          "generic-type": "http://dbpedia.org/resource/Thing",
+          "count": 1,
+          "surface_form": "lawsuit",
+          "uri": "http://dbpedia.org/resource/Lawsuit",
+          "label": "Lawsuit",
+          "score": 0.6276960095067681,
+          "types": []
+        },
+        {
+          "generic-type": "http://dbpedia.org/ontology/Person",
+          "count": 1,
+          "surface_form": "Bobbi Kristina Brown",
+          "uri": "http://dbpedia.org/resource/Bobbi_Kristina_Brown",
+          "label": "Bobbi Kristina Brown",
+          "score": 0.5988787345715618,
+          "types": [
+            "http://wikidata.dbpedia.org/resource/Q215627",
+            "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent",
+            "http://schema.org/Person",
+            "http://dbpedia.org/ontology/Agent",
+            "http://xmlns.com/foaf/0.1/Person",
+            "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+            "http://www.w3.org/2002/07/owl#Thing",
+            "http://wikidata.dbpedia.org/resource/Q5",
+            "http://dbpedia.org/ontology/Person"
+          ]
+        },
+        {
+          "generic-type": "http://dbpedia.org/ontology/Person",
+          "count": 1,
+          "surface_form": "Bobbi Kristina",
+          "uri": "http://dbpedia.org/resource/Bobbi_Kristina_Brown",
+          "label": "Bobbi Kristina",
+          "score": 0.59786062361189,
+          "types": [
+            "http://wikidata.dbpedia.org/resource/Q215627",
+            "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent",
+            "http://schema.org/Person",
+            "http://dbpedia.org/ontology/Agent",
+            "http://xmlns.com/foaf/0.1/Person",
+            "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+            "http://www.w3.org/2002/07/owl#Thing",
+            "http://wikidata.dbpedia.org/resource/Q5",
+            "http://dbpedia.org/ontology/Person"
+          ]
+        },
+        {
+          "generic-type": "http://dbpedia.org/resource/Thing",
+          "count": 1,
+          "surface_form": "allegations",
+          "uri": "http://dbpedia.org/resource/Allegation",
+          "label": "Allegations",
+          "score": 0.5695544302544375,
+          "types": []
+        }
+      ],
+      "id": "60ac612a0f790e436b7f4dac18b96aff6102094f",
+      "url": "http://www.financialexpress.com/article/lifestyle/showbiz/bobbi-kristina-brown-case-nick-gordon-denies-toxic-cocktail-claims/116993/",
+      "image": "",
+      "source-id": 432,
+      "body": "Nick Gordon has denied claims he gave Bobbi Kristina Brown a “toxic cocktail”, which ultimately led to her death.\n\nCourt documents filed by the conservator of the late 22-year-old aspiring actress allege that Nick Gordon directly caused the daughter of Whitney Houston to “suffer brain damage”, reported OK! magazine.\n\nIn a statement, Nick Gordon’s representative said, “Nick has been heartbroken and destroyed over the loss of his love and it’s shameful that such baseless allegations have been presented publicly.\n\n“Nick has engaged civil counsel and intends to defend the lawsuit vigorously and expose it for what it is: a fictitious assault against the person who loved Krissy most.”\n\nIn the documents filed to the court, Bobbi’s conservator claims Gordon “gave Bobbi Kristina a toxic cocktail rendering her unconscious and then put her face down in a tub of cold water causing her to suffer brain damage”.",
+      "authors": [],
+      "feed-id": 747,
+      "published": "2015-08-10T16:25:03Z"
+    },
+    {
+      "description": "THE boyfriend of Bobbi Kristina Brown has reportedly been put on suicide watch following her death over the weekend.",
+      "source": {
+        "source-uuid": "1c357dc8-34c3-4d51-b855-3f9ff816519c",
+        "source-id": 45,
+        "source-name": "Daily Express"
+      },
+      "title": "Bobbi Kristina Brown’s boyfriend Nick Gordon on suicide watch following her death",
+      "lang": "en",
+      "concepts": [
+        {
+          "generic-type": "http://dbpedia.org/ontology/Person",
+          "count": 3,
+          "surface_form": "Bobbi Kristina",
+          "uri": "http://dbpedia.org/resource/Bobbi_Kristina_Brown",
+          "label": "Bobbi Kristina",
+          "score": 0.6039779001460666,
+          "types": [
+            "http://wikidata.dbpedia.org/resource/Q215627",
+            "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent",
+            "http://schema.org/Person",
+            "http://dbpedia.org/ontology/Agent",
+            "http://xmlns.com/foaf/0.1/Person",
+            "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+            "http://www.w3.org/2002/07/owl#Thing",
+            "http://wikidata.dbpedia.org/resource/Q5",
+            "http://dbpedia.org/ontology/Person"
+          ]
+        },
+        {
+          "generic-type": "http://dbpedia.org/resource/Thing",
+          "count": 1,
+          "surface_form": "coma",
+          "uri": "http://dbpedia.org/resource/Coma",
+          "label": "Coma",
+          "score": 0.570078821476407,
+          "types": []
+        },
+        {
+          "generic-type": "http://dbpedia.org/resource/Thing",
+          "count": 1,
+          "surface_form": "Hospice",
+          "uri": "http://dbpedia.org/resource/Hospice",
+          "label": "Hospice",
+          "score": 0.5542912256416885,
+          "types": []
+        }
+      ],
+      "id": "9c952f205b4cbe9b90e6b488c7fe3fd9124d0b4c",
+      "url": "http://www.express.co.uk/news/showbiz/594031/Bobbi-Kristina-Brown-dead-Nick-Gordon-suicide-watch-Whitney-Houston",
+      "image": "http://cdn.images.express.co.uk/img/dynamic/79/590x/nick-gordon-bobbi-kristina-brown-594031.jpg",
+      "source-id": 45,
+      "body": "Nick Gordon, 25, is said to believe that the 22-year-old could have lived if only she had heard his voice while being in a six month coma. Bobbi's family made the heartbreaking decision to turn off her life support yesterday and are now planning her funeral.\n\nHowever, friends and family of Nick fear he \"could take his own life\" after learning of the tragic news. A source close to him told US website, HollywoodLife.com: \"His emotions are out of control right now. Nick is on suicide watch, he is out of control and with regret and sadness.\n\nNick, 25, is said to believe he thinks Bobbi Kristina could have survived if she'd heard his voice\n\n\"He keeps saying that if only (Bobbi Kristina) had heard his voice, things would have been different. She may have lived.\" Relations between Nick and Bobbi Kristina's family have allegedly been strained ever since she was found unconscious at the house they shared in Atlanta on January 31. Earlier this month, Nick was served with a $10 million lawsuit by Bobbi Kristina's conservators, accused of physically assaulting her and stealing thousands of dollars of her money.\n\nIt's unsure when Nick last visited Bobbi Kristina in hospital, and he's thought not to have seen her at all after she was moved to Peachtree Christian Hospice, which she was transferred to on June 24. Yesterday, a spokesperson confirmed her death, saying: \"Bobbi Kristina Brown passed away July, 26 2015, surrounded by her family. She is finally at peace in the arms of God. \"We want to again thank everyone for their tremendous amount of love and support during these last few months.\"",
+      "authors": [
+        "Kirsty Mccormack"
+      ],
+      "feed-id": 75,
+      "published": "2015-07-27T07:56:00Z"
+    },
+    {
+      "description": "“The passing of Bobbi Kristina is devastating to Nick and our family,” Michelle Gordon wrote in a statement after Bobbi Kristina Brown's passing on July 26.",
+      "source": {
+        "source-uuid": "82bbb7c1-7d29-4a3c-b4e6-e3287b8d6cbc",
+        "source-id": 375,
+        "source-name": "New York Post"
+      },
+      "title": "Nick Gordon ‘has suffered greatly,’ says his mom",
+      "lang": "en",
+      "concepts": [
+        {
+          "generic-type": "http://dbpedia.org/ontology/Person",
+          "count": 1,
+          "surface_form": "Bobbi Kristina Brown",
+          "uri": "http://dbpedia.org/resource/Bobbi_Kristina_Brown",
+          "label": "Bobbi Kristina Brown",
+          "score": 0.6159042069208294,
+          "types": [
+            "http://wikidata.dbpedia.org/resource/Q215627",
+            "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent",
+            "http://schema.org/Person",
+            "http://dbpedia.org/ontology/Agent",
+            "http://xmlns.com/foaf/0.1/Person",
+            "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+            "http://www.w3.org/2002/07/owl#Thing",
+            "http://wikidata.dbpedia.org/resource/Q5",
+            "http://dbpedia.org/ontology/Person"
+          ]
+        },
+        {
+          "generic-type": "http://dbpedia.org/ontology/Person",
+          "count": 3,
+          "surface_form": "Bobbi Kristina",
+          "uri": "http://dbpedia.org/resource/Bobbi_Kristina_Brown",
+          "label": "Bobbi Kristina",
+          "score": 0.6148571521717194,
+          "types": [
+            "http://wikidata.dbpedia.org/resource/Q215627",
+            "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent",
+            "http://schema.org/Person",
+            "http://dbpedia.org/ontology/Agent",
+            "http://xmlns.com/foaf/0.1/Person",
+            "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+            "http://www.w3.org/2002/07/owl#Thing",
+            "http://wikidata.dbpedia.org/resource/Q5",
+            "http://dbpedia.org/ontology/Person"
+          ]
+        },
+        {
+          "generic-type": "http://dbpedia.org/resource/Thing",
+          "count": 1,
+          "surface_form": "Hospice",
+          "uri": "http://dbpedia.org/resource/Hospice",
+          "label": "Hospice",
+          "score": 0.5725627753854012,
+          "types": []
+        },
+        {
+          "generic-type": "http://dbpedia.org/resource/Thing",
+          "count": 2,
+          "surface_form": "mourning",
+          "uri": "http://dbpedia.org/resource/Mourning",
+          "label": "Mourning",
+          "score": 0.5547301106128151,
+          "types": []
+        }
+      ],
+      "id": "5dc248f32824fe3e352bc5c15145adec26c60e08",
+      "url": "http://pagesix.com/2015/07/28/nick-gordon-has-suffered-greatly-says-his-mom/",
+      "image": "https://nyppagesix.files.wordpress.com/2015/03/nick-gordon.jpg",
+      "source-id": 375,
+      "body": "Nick Gordon is mourning the loss of his former girlfriend, Bobbi Kristina Brown, following her passing on July 26.\n\nThe couple claimed to be married, but Bobbi Kristina eventually confessed to her father, singer Bobby Brown, that she and Nick never actually wed.\n\nNick’s mother, Michelle Gordon, spoke on behalf of her son Monday saying he has “suffered greatly” since the 22-year-old was found unresponsive in a bathtub in her suburban Atlanta home in January.\n\n“The passing of Bobbi Kristina is devastating to Nick and our family,” Michelle said in a statement. “Nick loved and cared for Krissi deeply, and he has suffered greatly each and every day they’ve been apart. Nick and our family are in mourning, and we ask that you respect our privacy. Our thoughts and prayers are with both the Houstons and the Browns during this difficult time.”\n\nWhitney Houston and Bobby Brown’s only daughter was surrounded by her family when she passed away at Peachtree Christian Hospice in Duluth, Ga., Sunday after spending nearly six months in a medically induced coma.\n\nAfter her mother’s death in 2012, Bobbi Kristina inherited an estate estimated to be worth nearly $115 million. In the years that followed, the singer’s daughter would often appear “under the influence” near her home in Roswell, Ga. in a perceived effort to numb the pain of her loss, according to eyewitnesses.",
+      "authors": [],
+      "feed-id": 583,
+      "published": "2015-07-28T16:26:49Z"
+    },
+    {
+      "description": "An amended wrongful death lawsuit alleges that Bobbi Kristina's boyfriend Nick Gordon gave her a \"toxic cocktail\" that knocked her unconscious. CNN's Randi Kaye has the details.",
+      "source": {
+        "source-uuid": "9f23fea5-7d1a-4adb-8cfb-dd59c793fea4",
+        "source-id": 369,
+        "source-name": "CNN"
+      },
+      "title": "Nick Gordon accused of being violent to Bobbi Kristina",
+      "lang": "en",
+      "concepts": [
+        {
+          "generic-type": "http://dbpedia.org/ontology/Person",
+          "count": 1,
+          "surface_form": "Bobbi Kristina Brown",
+          "uri": "http://dbpedia.org/resource/Bobbi_Kristina_Brown",
+          "label": "Bobbi Kristina Brown",
+          "score": 0.6500217436489386,
+          "types": [
+            "http://wikidata.dbpedia.org/resource/Q215627",
+            "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent",
+            "http://schema.org/Person",
+            "http://dbpedia.org/ontology/Agent",
+            "http://xmlns.com/foaf/0.1/Person",
+            "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+            "http://www.w3.org/2002/07/owl#Thing",
+            "http://wikidata.dbpedia.org/resource/Q5",
+            "http://dbpedia.org/ontology/Person"
+          ]
+        },
+        {
+          "generic-type": "http://dbpedia.org/ontology/Person",
+          "count": 1,
+          "surface_form": "Bobby Brown",
+          "uri": "http://dbpedia.org/resource/Bobby_Brown",
+          "label": "Bobby Brown",
+          "score": 0.5965822111108032,
+          "types": [
+            "http://dbpedia.org/ontology/Artist",
+            "http://www.w3.org/2002/07/owl#Thing",
+            "http://wikidata.dbpedia.org/resource/Q5",
+            "http://dbpedia.org/ontology/Person",
+            "http://wikidata.dbpedia.org/resource/Q215627",
+            "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent",
+            "http://schema.org/Person",
+            "http://dbpedia.org/ontology/Agent",
+            "http://schema.org/MusicGroup",
+            "http://xmlns.com/foaf/0.1/Person",
+            "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+            "http://dbpedia.org/ontology/MusicalArtist"
+          ]
+        },
+        {
+          "generic-type": "http://dbpedia.org/ontology/Person",
+          "count": 1,
+          "surface_form": "Whitney Houston",
+          "uri": "http://dbpedia.org/resource/Whitney_Houston",
+          "label": "Whitney Houston",
+          "score": 0.5698865486874727,
+          "types": [
+            "http://dbpedia.org/ontology/Person",
+            "http://wikidata.dbpedia.org/resource/Q215627",
+            "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent",
+            "http://schema.org/Person",
+            "http://dbpedia.org/ontology/Agent",
+            "http://schema.org/MusicGroup",
+            "http://xmlns.com/foaf/0.1/Person",
+            "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+            "http://dbpedia.org/ontology/MusicalArtist",
+            "http://dbpedia.org/ontology/Artist",
+            "http://www.w3.org/2002/07/owl#Thing",
+            "http://wikidata.dbpedia.org/resource/Q5"
+          ]
+        }
+      ],
+      "id": "a0d8ad87c1888d3fcd981af105ec2ea108477bd8",
+      "url": "http://edition.cnn.com/videos/us/2015/08/07/bobbi-kristina-nick-gordon-lawsuit-kaye-ac.cnn",
+      "image": "http://i2.cdn.turner.com/cnnnext/dam/assets/150202182911-17-bobbi-kristina-large-169.jpg",
+      "source-id": 369,
+      "body": "Family and friends said goodbye Saturday to Bobbi Kristina Brown, the only child of the late Whitney Houston and singer Bobby Brown, at a private funeral just north of Atlanta.",
+      "authors": [],
+      "feed-id": 560,
+      "published": "2015-08-08T02:31:51Z"
+    },
+    {
+      "description": "Bobbi Kristina Brown's conservator has filed an amended complaint against Nick Gordon for the late singer's 'wrongful death'. Bedelia C. Hargrove confirmed that 'no stone' will be left unturned 'in...",
+      "source": {
+        "source-uuid": "26b771eb-7f7c-42c7-8dfc-e213a055e2ef",
+        "source-id": 40,
+        "source-name": "Metro"
+      },
+      "title": "Bobbi Kristina's conservator files complaint against Nick Gordon",
+      "lang": "en",
+      "concepts": [
+        {
+          "generic-type": "http://dbpedia.org/resource/Thing",
+          "count": 2,
+          "surface_form": "lawsuit",
+          "uri": "http://dbpedia.org/resource/Lawsuit",
+          "label": "Lawsuit",
+          "score": 0.6125577241923379,
+          "types": []
+        },
+        {
+          "generic-type": "http://dbpedia.org/ontology/Person",
+          "count": 2,
+          "surface_form": "Bobbi Kristina Brown",
+          "uri": "http://dbpedia.org/resource/Bobbi_Kristina_Brown",
+          "label": "Bobbi Kristina Brown",
+          "score": 0.5932830808944165,
+          "types": [
+            "http://wikidata.dbpedia.org/resource/Q215627",
+            "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent",
+            "http://schema.org/Person",
+            "http://dbpedia.org/ontology/Agent",
+            "http://xmlns.com/foaf/0.1/Person",
+            "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+            "http://www.w3.org/2002/07/owl#Thing",
+            "http://wikidata.dbpedia.org/resource/Q5",
+            "http://dbpedia.org/ontology/Person"
+          ]
+        },
+        {
+          "generic-type": "http://dbpedia.org/ontology/Person",
+          "count": 6,
+          "surface_form": "Bobbi Kristina",
+          "uri": "http://dbpedia.org/resource/Bobbi_Kristina_Brown",
+          "label": "Bobbi Kristina",
+          "score": 0.5922744827058724,
+          "types": [
+            "http://wikidata.dbpedia.org/resource/Q215627",
+            "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent",
+            "http://schema.org/Person",
+            "http://dbpedia.org/ontology/Agent",
+            "http://xmlns.com/foaf/0.1/Person",
+            "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+            "http://www.w3.org/2002/07/owl#Thing",
+            "http://wikidata.dbpedia.org/resource/Q5",
+            "http://dbpedia.org/ontology/Person"
+          ]
+        },
+        {
+          "generic-type": "http://dbpedia.org/resource/Thing",
+          "count": 1,
+          "surface_form": "wrongful death",
+          "uri": "http://dbpedia.org/resource/Wrongful_death_claim",
+          "label": "Wrongful death",
+          "score": 0.5903731840601356,
+          "types": []
+        },
+        {
+          "generic-type": "http://dbpedia.org/resource/Thing",
+          "count": 1,
+          "surface_form": "autopsy",
+          "uri": "http://dbpedia.org/resource/Autopsy",
+          "label": "Autopsy",
+          "score": 0.5802999092668166,
+          "types": []
+        },
+        {
+          "generic-type": "http://dbpedia.org/resource/Thing",
+          "count": 1,
+          "surface_form": "complaint",
+          "uri": "http://dbpedia.org/resource/Complaint",
+          "label": "Complaint",
+          "score": 0.5723049046268636,
+          "types": []
+        },
+        {
+          "generic-type": "http://dbpedia.org/resource/Thing",
+          "count": 1,
+          "surface_form": "allegations",
+          "uri": "http://dbpedia.org/resource/Allegation",
+          "label": "Allegations",
+          "score": 0.5588491756515666,
+          "types": []
+        }
+      ],
+      "id": "0d0009259729af8352543a7de74886b03c6f9133",
+      "url": "http://metro.co.uk/2015/08/08/bobbi-kristinas-conservator-files-complaint-against-nick-gordon-for-her-wrongful-death-5332377/",
+      "image": "https://metrouk2.files.wordpress.com/2015/07/ad_176463289-e1438850365103.jpg",
+      "source-id": 40,
+      "body": "Bobbi Kristina Brown’s conservator has filed an amended complaint against Nick Gordon for the late singer’s ‘wrongful death’.\n\nBedelia C. Hargrove confirmed that ‘no stone’ will be left unturned ‘in seeking justice for Bobbi Kristina Brown’.\n\nBedelia had previously filed a complaint against Nick in June alleging him of ‘domestic abuse and stealing money’ but the amended complaint now fully puts the blame for Bobbi’s death on Nick.\n\n‘I am deeply saddened by the recent death of Bobbi Kristina Brown. I extend my sincerest condolences to all of her family. Consistent with and to the letter of the civil action I initially filed on behalf of Bobbi Kristina, we will continue to pursue justice for her,’ Bedelia told People magazine in a statement.\n\n‘I have filed today an amended complaint against Nicholas Gordon adding a count for wrongful death and for pain and suffering. We will leave no stone unturned in seeking justice for Bobbi Kristina Brown.’\n\nBobbi, the only child of Bobby Brown and the late Whitney Houston sadly passed away on July 26 2015. She had been placed in a medically-induced coma on January 31 after being found face-down in the bath at her home by Nick and a friend.\n\nBobbi was found with bruises on her face and body, swollen lips and a missing tooth, however the autopsy concluded that there were no ‘obvious underlying cause of death and no significant injuries were noted’.\n\nNick’s legal team replied to the complaint, hitting back and telling People that ‘the recent lawsuit against Nick is slanderous and meritless.\n\n‘Nick has been heartbroken and destroyed over the loss of his love and it’s shameful that such baseless allegations have been presented publicly.’\n\nThe statement came from Joe Habachy and Jose Baez who added: ‘Nick has engaged civil counsel and intends to defend the lawsuit vigorously and expose it for what it is: a fictitious assault against the person who loved Krissy most.’\n\nMORE: Chilling Bobbi Kristina deathbed photo has been printed by the National Enquirer\n\nMORE: Bobbi Kristina Brown’s funeral marred by family tensions as her aunt Leolah ‘ejected’ from service\n\nMORE: Bobbi Kristina Brown is laid to rest as family continue their ongoing feud",
+      "authors": [
+        "Rebecca Lewis",
+        "Rebecca Lewis For Metro Co Uk"
+      ],
+      "feed-id": 65,
+      "published": "2015-08-08T08:46:43Z"
+    },
+    {
+      "description": "Nick asked Bobby Brown and Pat Houston if they could put their differences aside and give him their blessing to attend the funeral, according to reports",
+      "source": {
+        "source-uuid": "0366090f-52cc-4644-b012-45d19301b40e",
+        "source-id": 12,
+        "source-name": "The Mirror"
+      },
+      "title": "Nick Gordon banned from funeral so mourned Bobbi Kristina on the couple's favourite beach",
+      "lang": "en",
+      "concepts": [
+        {
+          "generic-type": "http://dbpedia.org/ontology/Person",
+          "count": 1,
+          "surface_form": "Bobbi Kristina Brown",
+          "uri": "http://dbpedia.org/resource/Bobbi_Kristina_Brown",
+          "label": "Bobbi Kristina Brown",
+          "score": 0.6238580372767304,
+          "types": [
+            "http://wikidata.dbpedia.org/resource/Q215627",
+            "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent",
+            "http://schema.org/Person",
+            "http://dbpedia.org/ontology/Agent",
+            "http://xmlns.com/foaf/0.1/Person",
+            "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+            "http://www.w3.org/2002/07/owl#Thing",
+            "http://wikidata.dbpedia.org/resource/Q5",
+            "http://dbpedia.org/ontology/Person"
+          ]
+        },
+        {
+          "generic-type": "http://dbpedia.org/ontology/Person",
+          "count": 3,
+          "surface_form": "Bobbi Kristina",
+          "uri": "http://dbpedia.org/resource/Bobbi_Kristina_Brown",
+          "label": "Bobbi Kristina",
+          "score": 0.6227974607887621,
+          "types": [
+            "http://wikidata.dbpedia.org/resource/Q215627",
+            "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent",
+            "http://schema.org/Person",
+            "http://dbpedia.org/ontology/Agent",
+            "http://xmlns.com/foaf/0.1/Person",
+            "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+            "http://www.w3.org/2002/07/owl#Thing",
+            "http://wikidata.dbpedia.org/resource/Q5",
+            "http://dbpedia.org/ontology/Person"
+          ]
+        },
+        {
+          "generic-type": "http://dbpedia.org/ontology/Organisation",
+          "count": 1,
+          "surface_form": "NBC",
+          "uri": "http://dbpedia.org/resource/NBC",
+          "label": "NBC",
+          "score": 0.5579930819791601,
+          "types": [
+            "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent",
+            "http://dbpedia.org/ontology/Agent",
+            "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson",
+            "http://schema.org/Organization",
+            "http://dbpedia.org/ontology/Broadcaster",
+            "http://dbpedia.org/ontology/BroadcastNetwork",
+            "http://www.w3.org/2002/07/owl#Thing",
+            "http://dbpedia.org/ontology/Organisation"
+          ]
+        }
+      ],
+      "id": "e2fd7bf82447079af9ad1a6cddb87ef913a4b72e",
+      "url": "http://www.mirror.co.uk/3am/celebrity-news/nick-gordon-banned-funeral-mourned-6194922",
+      "image": "http://i2.mirror.co.uk/incoming/article6137055.ece/ALTERNATES/s1200/Bobbi-Kristina-Brown-R-and-Nick-Gordon.jpg",
+      "source-id": 12,
+      "body": "Nick Gordon was mourning Bobbi Kristina Brown on the couple's favourite beach the day she was laid to rest.\n\nNick, who was dating Bobbi Kristina when she was found face down in a bathtub in January, had been banned from seeing the aspiring singer and was also noticeably absent from her funeral.\n\nThe 22-year-old daughter of Whitney Houston was laid to rest at St. James United Methodist Church in Alpharetta, Georgia.\n\nAccording to reports Nick had asked Bobbi Kristina's father Bobby Brown and Pat Houston if they could put their differences aside and give him their blessing to attend her funeral.\n\nNick's mum Michele Gordon told people: \"Nick went to the beach with me on Friday during the services.\n\n\"He said the beach was always their favorite place to go, so he decided that he would honor her at a place that they both loved.\"\n\nLast week Michele said her son had \"suffered greatly\" being apart from Bobbi Kristina over the last few months.\n\n\"The passing of Bobbi Kristina is devastating to Nick and our family. Nick loved and cared for Krissi deeply, and he has suffered greatly each and every day they've been apart,\" she told NBC News.\n\n\"Nick and our family are in mourning, and we ask that you respect our privacy. Our thoughts and prayers are with both the Houstons and the Browns during this difficult time.\"",
+      "authors": [
+        "Zoe Shenton"
+      ],
+      "feed-id": 16,
+      "published": "2015-08-04T22:11:35Z"
+    },
+    {
+      "description": "Nick Gordon, boyfriend of Whitney Houston's daughter Bobbi Kristina Brown, said he will \"forever\" love the singer who tragically died last month.",
+      "source": {
+        "source-uuid": "897b7a60-6429-42d1-8c15-d99809665904",
+        "source-id": 432,
+        "source-name": "Financial Express "
+      },
+      "title": "Nick Gordon: I will always love Bobbi Kristina Brown",
+      "lang": "en",
+      "concepts": [
+        {
+          "generic-type": "http://dbpedia.org/ontology/Organisation",
+          "count": 1,
+          "surface_form": "Twitter",
+          "uri": "http://dbpedia.org/resource/Twitter",
+          "label": "Twitter",
+          "score": 0.592746554292539,
+          "types": [
+            "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson",
+            "http://schema.org/Organization",
+            "http://www.w3.org/2002/07/owl#Thing",
+            "http://dbpedia.org/ontology/Organisation",
+            "http://dbpedia.org/ontology/Company",
+            "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent",
+            "http://dbpedia.org/ontology/Agent"
+          ]
+        },
+        {
+          "generic-type": "http://dbpedia.org/ontology/Person",
+          "count": 1,
+          "surface_form": "Bobbi Kristina Brown",
+          "uri": "http://dbpedia.org/resource/Bobbi_Kristina_Brown",
+          "label": "Bobbi Kristina Brown",
+          "score": 0.5765845513409498,
+          "types": [
+            "http://wikidata.dbpedia.org/resource/Q215627",
+            "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent",
+            "http://schema.org/Person",
+            "http://dbpedia.org/ontology/Agent",
+            "http://xmlns.com/foaf/0.1/Person",
+            "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+            "http://www.w3.org/2002/07/owl#Thing",
+            "http://wikidata.dbpedia.org/resource/Q5",
+            "http://dbpedia.org/ontology/Person"
+          ]
+        },
+        {
+          "generic-type": "http://dbpedia.org/resource/Thing",
+          "count": 1,
+          "surface_form": "cocaine",
+          "uri": "http://dbpedia.org/resource/Cocaine",
+          "label": "Cocaine",
+          "score": 0.5637244780054411,
+          "types": [
+            "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#FunctionalSubstance",
+            "http://dbpedia.org/ontology/Drug"
+          ]
+        },
+        {
+          "generic-type": "http://dbpedia.org/resource/Thing",
+          "count": 1,
+          "surface_form": "boyfriend",
+          "uri": "http://dbpedia.org/resource/Boyfriend",
+          "label": "Boyfriend",
+          "score": 0.5518746265948269,
+          "types": []
+        }
+      ],
+      "id": "5df6f2e6e44ba109f5fbd20161cc30fd9321ad3f",
+      "url": "http://www.financialexpress.com/article/lifestyle/showbiz/nick-gordon-i-will-always-love-bobbi-kristina-brown/122372/",
+      "image": "",
+      "source-id": 432,
+      "body": "Nick Gordon, boyfriend of Whitney Houston’s daughter Bobbi Kristina Brown, said he will “forever” love the singer who tragically died last month.\n\nGordon took to Twitter and wrote that his pictures with the 22-year-old aspiring singer made him nostalgic, reported Us Weekly Magazine.\n\n“I look at our pics sometimes it makes me smile sometime I cry @REALbkBrown #happymemories. I’m so happy/blessed that I had @REALbkBrown in my life. I will always & forever love you (sic).”\n\nBrown died on July 26, nearly six months after she was found unresponsive in a bathtub of her Roswell, Georgia, home on January 31.\n\nShe was laid to rest next to her late mom, Houston, in New Jersey.\n\nGordon was recently accused of wrongful death and for giving Brown a “toxic cocktail” of cocaine and alcohol prior to her being found unconscious and face-down in the bathtub.\n\nFirst Published on August 20, 2015 8:28 am",
+      "authors": [],
+      "feed-id": 747,
+      "published": "2015-08-20T02:58:21Z"
+    },
+    {
+      "description": "Bobbi's partner Nick has so far been banned from seeing the 22-year-old, but is said to be desperate to change that",
+      "source": {
+        "source-uuid": "0366090f-52cc-4644-b012-45d19301b40e",
+        "source-id": 12,
+        "source-name": "The Mirror"
+      },
+      "title": "Bobbi Kristina's partner Nick Gordon suffering 'intense mood swings' and 'desperate to see her' in hospice",
+      "lang": "en",
+      "concepts": [
+        {
+          "generic-type": "http://dbpedia.org/ontology/Person",
+          "count": 2,
+          "surface_form": "Bobbi Kristina Brown",
+          "uri": "http://dbpedia.org/resource/Bobbi_Kristina_Brown",
+          "label": "Bobbi Kristina Brown",
+          "score": 0.6228688317913482,
+          "types": [
+            "http://wikidata.dbpedia.org/resource/Q215627",
+            "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent",
+            "http://schema.org/Person",
+            "http://dbpedia.org/ontology/Agent",
+            "http://xmlns.com/foaf/0.1/Person",
+            "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+            "http://www.w3.org/2002/07/owl#Thing",
+            "http://wikidata.dbpedia.org/resource/Q5",
+            "http://dbpedia.org/ontology/Person"
+          ]
+        },
+        {
+          "generic-type": "http://dbpedia.org/ontology/Person",
+          "count": 6,
+          "surface_form": "Bobbi Kristina",
+          "uri": "http://dbpedia.org/resource/Bobbi_Kristina_Brown",
+          "label": "Bobbi Kristina",
+          "score": 0.6218099369809682,
+          "types": [
+            "http://wikidata.dbpedia.org/resource/Q215627",
+            "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent",
+            "http://schema.org/Person",
+            "http://dbpedia.org/ontology/Agent",
+            "http://xmlns.com/foaf/0.1/Person",
+            "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+            "http://www.w3.org/2002/07/owl#Thing",
+            "http://wikidata.dbpedia.org/resource/Q5",
+            "http://dbpedia.org/ontology/Person"
+          ]
+        },
+        {
+          "generic-type": "http://dbpedia.org/ontology/Person",
+          "count": 1,
+          "surface_form": "Alex Reid",
+          "uri": "http://dbpedia.org/resource/Alex_Reid_(actress)",
+          "label": "Alex Reid (actress)",
+          "score": 0.5733821750063015,
+          "types": [
+            "http://dbpedia.org/ontology/Agent",
+            "http://xmlns.com/foaf/0.1/Person",
+            "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+            "http://www.w3.org/2002/07/owl#Thing",
+            "http://wikidata.dbpedia.org/resource/Q5",
+            "http://dbpedia.org/ontology/Person",
+            "http://wikidata.dbpedia.org/resource/Q215627",
+            "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent",
+            "http://schema.org/Person"
+          ]
+        },
+        {
+          "generic-type": "http://dbpedia.org/resource/Thing",
+          "count": 4,
+          "surface_form": "lawsuit",
+          "uri": "http://dbpedia.org/resource/Lawsuit",
+          "label": "Lawsuit",
+          "score": 0.568967081222266,
+          "types": []
+        },
+        {
+          "generic-type": "http://dbpedia.org/resource/Thing",
+          "count": 1,
+          "surface_form": "boyfriend",
+          "uri": "http://dbpedia.org/resource/Boyfriend",
+          "label": "Boyfriend",
+          "score": 0.5655921646079647,
+          "types": []
+        }
+      ],
+      "id": "f455582656c686e4b3649c47574911a40ee78d50",
+      "url": "http://www.mirror.co.uk/3am/celebrity-news/bobbi-kristinas-partner-nick-gordon-6019276",
+      "image": "http://i3.mirror.co.uk/incoming/article5986766.ece/ALTERNATES/s1200/Bobbi-Kristina-Brown-and-Nick-Gordon.jpg",
+      "source-id": 12,
+      "body": "Nick is said to be \"desperate\" to see her\n\nBobbi Kristina Brown 's partner Nick Gordon is suffering \"intense mood swings\" as he is yet to see her after she was moved to a hospice.\n\nThe 22-year-old has been fighting for her life ever since she was found face-down in her bath at the end of January, and was recently moved to a hospice surrounded by her family.\n\nHowever her partner Nick has been banned from seeing her following allegations he assaulted her - and he's said to be \"desperate\" to visit.\n\nHe has denied all allegations of assault.\n\nUs Weekly reports he is \"going through intense mood swings and desperate to see her before she passes away\".\n\nIt was previously claimed that Bobbi Kristina - the daughter of the Bobbi Brown and the late Whitney Houston - told her best friend Alex Reid that her boyfriend had been allegedly abusing her.\n\nAnd Nick - who has denied all the claims made against him - has also been hit with a lawsuit over allegations he assaulted her.\n\nIn a statement, Bobbi Kristina's conservator Bedelia Hargrove said : \"I filed a lawsuit on behalf of Bobbi Kristina Brown. I filed this lawsuit to pursue justice on behalf of Bobbi Kristina Brown.\n\n\"No human being, male or female, should endure what Bobbi Kristina endured. Pat Houston [her aunt] and Bobby Brown have done all they can to take care of Bobbi Kristina since this terrible tragedy occurred.\n\n\"I have worked closely with both of them and we all want the very best for Bobbi Kristina. This lawsuit represents our collective efforts to get justice for Bobbi Kristina. We pray that justice will be done for her and that it will be swift.\"",
+      "authors": [
+        "Rebecca Pocklington"
+      ],
+      "feed-id": 16,
+      "published": "2015-07-07T12:44:50Z"
+    },
+    {
+      "description": "Friends and family fear he \"could take his own life\" after learning that his long term girlfriend passed away on Sunday",
+      "source": {
+        "source-uuid": "0366090f-52cc-4644-b012-45d19301b40e",
+        "source-id": 12,
+        "source-name": "The Mirror"
+      },
+      "title": "Bobbi Kristina Brown dead: Boyfriend Nick Gordon on suicide watch",
+      "lang": "en",
+      "concepts": [
+        {
+          "generic-type": "http://dbpedia.org/ontology/Person",
+          "count": 2,
+          "surface_form": "Bobbi Kristina Brown",
+          "uri": "http://dbpedia.org/resource/Bobbi_Kristina_Brown",
+          "label": "Bobbi Kristina Brown",
+          "score": 0.6180224092392894,
+          "types": [
+            "http://wikidata.dbpedia.org/resource/Q215627",
+            "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent",
+            "http://schema.org/Person",
+            "http://dbpedia.org/ontology/Agent",
+            "http://xmlns.com/foaf/0.1/Person",
+            "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+            "http://www.w3.org/2002/07/owl#Thing",
+            "http://wikidata.dbpedia.org/resource/Q5",
+            "http://dbpedia.org/ontology/Person"
+          ]
+        },
+        {
+          "generic-type": "http://dbpedia.org/ontology/Person",
+          "count": 4,
+          "surface_form": "Bobbi Kristina",
+          "uri": "http://dbpedia.org/resource/Bobbi_Kristina_Brown",
+          "label": "Bobbi Kristina",
+          "score": 0.6169717534857178,
+          "types": [
+            "http://wikidata.dbpedia.org/resource/Q215627",
+            "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent",
+            "http://schema.org/Person",
+            "http://dbpedia.org/ontology/Agent",
+            "http://xmlns.com/foaf/0.1/Person",
+            "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+            "http://www.w3.org/2002/07/owl#Thing",
+            "http://wikidata.dbpedia.org/resource/Q5",
+            "http://dbpedia.org/ontology/Person"
+          ]
+        },
+        {
+          "generic-type": "http://dbpedia.org/resource/Thing",
+          "count": 1,
+          "surface_form": "boyfriend",
+          "uri": "http://dbpedia.org/resource/Boyfriend",
+          "label": "Boyfriend",
+          "score": 0.5705078762616851,
+          "types": []
+        },
+        {
+          "generic-type": "http://dbpedia.org/resource/Thing",
+          "count": 1,
+          "surface_form": "hospice",
+          "uri": "http://dbpedia.org/resource/Hospice",
+          "label": "Hospice",
+          "score": 0.5539383249625212,
+          "types": []
+        }
+      ],
+      "id": "a6a4449597f8fc97e004049159a3d70522f87469",
+      "url": "http://www.mirror.co.uk/3am/celebrity-news/bobbi-kristina-brown-dead-boyfriend-6144723",
+      "image": "http://i2.mirror.co.uk/incoming/article6073093.ece/ALTERNATES/s1200/Nick-Gordon-Bobbi-Kristina-Brown-main.jpg",
+      "source-id": 12,
+      "body": "The inconsolable boyfriend of Bobbi Kristina Brown is reportedly on suicide watch after learning that she died following her six month battle to live.\n\nNick Gordon, who was banned from seeing her by the Brown and Houston families insists that she might have woken up if she had had the chance to hear his voice.\n\nJust hours after Bobbi passed away, a source close to him told US website, HollywoodLife.com: \"His emotions are out of control right now. Nick is on suicide watch, he is out of control and with regret and sadness.\n\n\"He keeps saying that if only (Bobbi Kristina) had heard his voice, things would have been different. She may have lived.\"\n\nNick, 25, and Bobbi Kristina were due to marry next month, according to the late 22-year-old's cousin, Jerod Brown.\n\nHowever, earlier this month he was served with a $10 million lawsuit by Bobbi Kristina's conservators, accused of both physically assaulting her and stealing thousands of dollars of cash.\n\nHe is also being investigated by American police over Bobbi Kristina being found unconscious at the house they shared in Atlanta on January 31.\n\nNick and their friend Max Lomas attempted to revive her at the scene but after being rushed to the nearby North Fulton Hospital where Bobbi Kristina was placed in an induced coma.\n\nAfter being transferred to the Emory University Hospital, she was taken to Peachtree Christian Hospice where she spent her final days until she finally passed away on Sunday afternoon.\n\n* Bobbi Kristina Brown has tragically lost her six-moth battle for life after being found unconscious in a bathtub in on 31 January. * The daughter of singing legend Whitney Houston and Bobby Brown passed away at a hospice facility surrounded by family on Sunday. * \"She is finally at peace in the arms of God,\" a statement from the Houston family read. * Touching tributes have come flooding in for the aspiring singer. * Autospy did \"not show an obvious underlying cause of death and no significant injuries\" * She will reportedly be buried next to her mother following a funeral which will take place this week",
+      "authors": [
+        "Christopher Bucktin",
+        "Katie Hind"
+      ],
+      "feed-id": 16,
+      "published": "2015-07-27T20:12:04Z"
+    },
+    {
+      "description": "The former partner of Bobbi Kristina, who has been moved to a hospice this week, has had a lawsuit filed against him by the 22-year-old's conservator",
+      "source": {
+        "source-uuid": "0366090f-52cc-4644-b012-45d19301b40e",
+        "source-id": 12,
+        "source-name": "The Mirror"
+      },
+      "title": "Nick Gordon is \"completely innocent\" and did not hurt Bobbi Kristina Brown, claims family",
+      "lang": "en",
+      "concepts": [
+        {
+          "generic-type": "http://dbpedia.org/ontology/Person",
+          "count": 3,
+          "surface_form": "Bobbi Kristina Brown",
+          "uri": "http://dbpedia.org/resource/Bobbi_Kristina_Brown",
+          "label": "Bobbi Kristina Brown",
+          "score": 0.6316878629850722,
+          "types": [
+            "http://wikidata.dbpedia.org/resource/Q215627",
+            "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent",
+            "http://schema.org/Person",
+            "http://dbpedia.org/ontology/Agent",
+            "http://xmlns.com/foaf/0.1/Person",
+            "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+            "http://www.w3.org/2002/07/owl#Thing",
+            "http://wikidata.dbpedia.org/resource/Q5",
+            "http://dbpedia.org/ontology/Person"
+          ]
+        },
+        {
+          "generic-type": "http://dbpedia.org/ontology/Person",
+          "count": 3,
+          "surface_form": "Bobbi Kristina",
+          "uri": "http://dbpedia.org/resource/Bobbi_Kristina_Brown",
+          "label": "Bobbi Kristina",
+          "score": 0.6306139755696893,
+          "types": [
+            "http://wikidata.dbpedia.org/resource/Q215627",
+            "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent",
+            "http://schema.org/Person",
+            "http://dbpedia.org/ontology/Agent",
+            "http://xmlns.com/foaf/0.1/Person",
+            "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+            "http://www.w3.org/2002/07/owl#Thing",
+            "http://wikidata.dbpedia.org/resource/Q5",
+            "http://dbpedia.org/ontology/Person"
+          ]
+        },
+        {
+          "generic-type": "http://dbpedia.org/resource/Thing",
+          "count": 4,
+          "surface_form": "lawsuit",
+          "uri": "http://dbpedia.org/resource/Lawsuit",
+          "label": "Lawsuit",
+          "score": 0.5680627618267664,
+          "types": []
+        },
+        {
+          "generic-type": "http://dbpedia.org/ontology/Place",
+          "count": 1,
+          "surface_form": "Houston",
+          "uri": "http://dbpedia.org/resource/Houston",
+          "label": "Houston",
+          "score": 0.5504430263132365,
+          "types": [
+            "http://dbpedia.org/ontology/Settlement",
+            "http://schema.org/City",
+            "http://dbpedia.org/ontology/Place",
+            "http://www.ontologydesignpatterns.org/ont/d0.owl#Location",
+            "http://dbpedia.org/ontology/Wikidata:Q532",
+            "http://dbpedia.org/ontology/City",
+            "http://schema.org/Place",
+            "http://dbpedia.org/ontology/PopulatedPlace"
+          ]
+        }
+      ],
+      "id": "160e5461f28e9074f7238899d264cd8f112bf655",
+      "url": "http://www.mirror.co.uk/3am/celebrity-news/nick-gordon-completely-innocent-not-5962414",
+      "image": "http://i4.mirror.co.uk/incoming/article5961256.ece/ALTERNATES/s1200/PAY-MAIN-Bobbi-Nick-Gordon.jpg",
+      "source-id": 12,
+      "body": "Nick Gordon is \"completely innocent\" of harming Bobbi Kristina Brown, a relative has claimed.\n\nThe family source has insisted that Nick has been a \"scapegoat\" ever since the 22-year-old aspiring actress was found face down and unresponsive in a bath tub on January 31.\n\nThey said: \"He feels - and we all feel - like Nick has been a scapegoat in this case.\n\n\"It's scary for him, because he hasn't done anything wrong. He is completely innocent.\"\n\nThe relative also told PEOPLE magazine that Nick has been following the news about the star from Florida.\n\nMeanwhile, Nick has had a $10 million lawsuit filed against him after he was accused of knocking out Bobbi Kristina's teeth.\n\nBobby Brown seen leaving the Peachtree Christian Hospice in a black SUV\n\nA statement from conservator Bedelia Hargrove read: \"Today I filed a lawsuit on behalf of Bobbi Kristina Brown. I filed this lawsuit to pursue justice on behalf of Bobbi Kristina Brown. No human being, male or female, should endure what Bobbi Kristina endured.\n\n\"Pat Houston [her aunt] and Bobby Brown have done all they can to take care of Bobbi Kristina since this terrible tragedy occurred. I have worked closely with both of them and we all want the very best for Bobbi Kristina.\n\n\"This lawsuit represents our collective efforts to get justice for Bobbi Kristina. We pray that justice will be done for her and that it will be swift.\"",
+      "authors": [
+        "Claire Rutter"
+      ],
+      "feed-id": 16,
+      "published": "2015-06-27T23:10:45Z"
+    }
+  ]
+}
